@@ -2,7 +2,7 @@ import '../styles/Banner.css';
 import logo from '../images/logo512.png';
 
 function Banner() {
-    const title = 'Ity zany le hoe fianarana-react 😎😱'
+    const title = 'Ity zany le hoe fianarana-react laolina 😎😱'
     return (
         <div className='lmj-banner'>
             <img src={logo} alt='La maison jungle' className='lmj-logo' />
