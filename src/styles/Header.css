@@ -2,11 +2,8 @@
 	color: black;
 	text-align: center;
 	padding: 32px;
-	/* border-bottom: solid 3px black; */
 	flex-direction: row;
 	align-items: center;
-}
-
-.ligne-bas {
-	color: black;
+	background: linear-gradient(to right, blue, pink, cyan);
+	color: white;
 }
