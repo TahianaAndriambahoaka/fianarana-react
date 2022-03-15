@@ -1,14 +1,14 @@
-import '../styles/Banner.css';
-import logo from '../images/logo512.png';
+import '../styles/Header.css';
+import '../styles/animate.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
-function Banner() {
-    const title = 'Ity zany le hoe fianarana-react laolina fa oay leh 😎😱'
+function Header() {
+    const tahiana = <button class='btn btn-outline-primary animate__animated animate__bounceInLeft'>Tahiana😎</button>
+    const tsanta = <button class='btn btn-outline-secondary animate__animated animate__fadeInDown'>Tsanta😱</button>
+    const cedric = <button class='btn btn-outline-success animate__animated animate__bounceInRight'>Cedric🤪</button>
     return (
-        <div className='lmj-banner'>
-            <img src={logo} alt='La maison jungle' className='lmj-logo' />
-            <h1 className='lmj-title'>{title}</h1>
-        </div>
+        <div className='header'>{tahiana}&nbsp;{tsanta}&nbsp;{cedric}</div>
     )
 }
 
-export default Banner
+export default Header

@@ -1,0 +1,8 @@
+.header {
+	color: black;
+	text-align: center;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	flex-direction: row;
+	align-items: center;
+}
