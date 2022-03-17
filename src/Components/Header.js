@@ -4,16 +4,6 @@ import ImageHome from '../images/home.png';
 import ImageCommunit from '../images/COMMUN-IT.png';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function handleClick(args) {
-    if (args == 'Tahiana') {
-        console.log('✨ Ceci est un clic ✨'+args)
-    } else if (args == 'Tsanta') {
-        console.log('✨ Ceci est un clic ✨'+args)
-    } else if (args == 'Cedric') {
-        console.log('✨ Ceci est un clic ✨'+args)
-    }
-}
-
 function Header({auteur, updateAuteur}) {
     const tahiana = <button className='btn btn-outline-light animate__animated animate__bounceInLeft' onClick={() => updateAuteur('Tahiana')}>Tahiana😎</button>
     const tsanta = <button className='btn btn-outline-secondary animate__animated animate__fadeInDown' onClick={() => updateAuteur('Tsanta')}>Tsanta😱</button>
