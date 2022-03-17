@@ -14,7 +14,7 @@ function Default({auteur, updateAuteur}) {
             <br/>
             <div className='row' style={{textAlign:"center"}}>
                 <div className='col-4 animate__animated animate__slideInLeft'>
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card" style={{width: "75%", marginLeft:"12%"}}>
                         <img className="card-img-top" src={ImageTahiana} alt="Image" height="350px"/>
                         <div className="card-body">
                             <h5 className="card-title">ANDRIAMBAHOAKA Tahiana</h5>
@@ -24,7 +24,7 @@ function Default({auteur, updateAuteur}) {
                     </div>
                 </div>
                 <div className='col-4 animate__animated animate__slideInUp'>
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card" style={{width: "75%", marginLeft:"12%"}}>
                         <img className="card-img-top" src={ImageTsanta} alt="Image" height="350px"/>
                         <div className="card-body">
                             <h5 className="card-title">RAKOTONJANAHARY Tsantaniaina</h5>
@@ -34,7 +34,7 @@ function Default({auteur, updateAuteur}) {
                     </div>
                 </div>
                 <div className='col-4 animate__animated animate__slideInRight'>
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card" style={{width: "75%", marginLeft:"12%"}}>
                         <img className="card-img-top" src={ImageCedric} alt="Image" height="350px"/>
                         <div className="card-body">
                             <h5 className="card-title">RABARIJOHN <br/> Cedric</h5>
