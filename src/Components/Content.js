@@ -3,6 +3,9 @@ import '../styles/animate.min.css';
 import ImageTahiana from '../images/Tahiana.png';
 import ImageTsanta from '../images/Tsanta.png';
 import ImageCedric from '../images/Cedric.png';
+import Tahiana from './Tahiana';
+import Tsanta from './Tsanta';
+import Cedric from './Cedric';
 
 function Cards({auteur, updateAuteur}) {
     return (
@@ -54,37 +57,31 @@ function Default({auteur, updateAuteur}) {
     )
 }
 
-function Tahiana() {
+function PageTahiana() {
     return (
-        <div>
-            <p>Page de Tahiana</p>
-        </div>
+        <Tahiana/>
     )
 }
 
-function Tsanta() {
+function PageTsanta() {
     return (
-        <div>
-            <p>Page de Tsanta</p>
-        </div>
+        <Tsanta/>
     )
 }
 
-function Cedric() {
+function PageCedric() {
     return (
-        <div>
-            <p>Page de Cedric</p>
-        </div>
+        <Cedric/>
     )
 }
 
 function Content({auteur, updateAuteur}) {
     if (auteur == 'Tahiana') {
-        return (<Tahiana/>)
+        return (<PageTahiana/>)
     } else if (auteur == 'Tsanta') {
-        return (<Tsanta/>)
+        return (<PageTsanta/>)
     } else if (auteur == 'Cedric') {
-        return (<Cedric/>)
+        return (<PageCedric/>)
     } else {
         return (<Default auteur={auteur} updateAuteur={updateAuteur}/>)
     }
