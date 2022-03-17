@@ -67,7 +67,7 @@ function Tsanta() {
 function Cedric() {
     return (
         <div>
-            <p>Page de Cedric</p>
+            <p>Page de Cedric...</p>
         </div>
     )
 }
