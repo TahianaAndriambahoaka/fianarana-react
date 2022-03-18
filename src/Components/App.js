@@ -1,7 +1,6 @@
-import Banner from './Banner'
-
+import Header from 'Components/Header'
 function App() {
-    return <Banner />
+    return <Header />
 }
 
 export default App
