@@ -1,10 +1,7 @@
 function Cedric() {
     return (
         <div>
-            <p>Page de Cedric Rab...</p>
-            <canvas></canvas>
-            <script src="../scripts/jquery.min.js"></script>
-            <script src="../scripts/canvas.js"></script>
+            <p>Page de Cedric...</p>
         </div>
     )
 }
