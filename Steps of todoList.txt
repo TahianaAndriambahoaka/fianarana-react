@@ -1,9 +1,9 @@
-useState, useEffect from React
+ï»¿useState, useEffect from React
 v4 as uuidv4 from uuid
 
 const[todos, setTodos] = useState([{ truc json }])
 todos here is like getter and setTodos is setter
 
-creer todoList (composant prenant en parameter les todos)
-dans le todolist on map la liste des todos nommé todo
+creer todoList (composant prenant en parametre les todos)
+dans le todolist on map la liste des todos
 chaque todo a son affichage (c-a-d on a une fonction , composant todo)

@@ -1,0 +1,33 @@
+/* .navbar{
+    float: left;
+    background-color: blue;
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%; */
+/* }
+.links{
+    float: left;
+    display: inline-block;
+}
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.links a.active{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+.links a:hover{
+    background: white;
+    color: black;
+    transition: .5s;
+} */
