@@ -1,17 +1,16 @@
-import React, { useState }from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styles/home.css'
 import BlogList from './BlogList';
+import useFetch from './useFetch';
 export default function Home() {
-    const[blogs , setBlogs] = useState([
-        {title : 'My new webSite', body: 'lorem ipsum...', author: 'Cedric', id:1},
-        {title : 'Welcome to my party!', body: 'lorem ipsum...', author: 'Yoshi', id:2},
-        {title : 'Web dev top tips', body: 'lorem ipsum...', author: 'Luigi', id:3}
-    ]);
+  const {data: blogs, error, isPending} = useFetch('http://loalhost:8000/blogs');
   return (
-      <>
-        <div className='home'>
-            <BlogList blogs = {blogs} />
-        </div>
-      </>
+    <>
+      <div className='home'>
+        {error && <div>{error}</div>}
+        {isPending && <div>Loading...</div>}
+        {blogs && <BlogList blogs={blogs} title='All Blogs!' />}
+      </div>
+    </>
   )
 }

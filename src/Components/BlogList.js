@@ -1,10 +1,13 @@
 import React from 'react'
 
-export default function BlogList(props) {
-    const blogs = props.blogs
+export default function BlogList({blogs, title}) {
+    // const blogs = props.blogs
+    // const title = props.title
     console.log(blogs)
+    
   return (
       <>
+      <h2>{title}</h2>
       {blogs.map((blog) => (
         <div className='blog-preview' key={blog.id}>
         <h2>
