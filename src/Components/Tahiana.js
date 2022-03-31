@@ -21,15 +21,11 @@ function CallWebService({url, list, updateList}) {
 
 function Tahiana() {
     const [list, updateList] = useState(null)
-    // const url = 'getPanneauxSolaires'
     return (
-        // <UsersList users={this.state.users}/>
         <div>
-            {/* <CallWebService url={url} list={list} updateList={updateList}/> */}
             <p>Coucou</p>
         </div>
     )
-    // console.log(list);
 }
 
 export default Tahiana
